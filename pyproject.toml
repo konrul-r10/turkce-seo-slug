@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "turkce-seo-slug"
-version = "0.1.0"
-description = "Türkçe başlıklardan SEO uyumlu URL slug'ı üretir"
+version = "0.1.1"
+description = "Türkçe başlıklardan SEO uyumlu URL slug'ı üretir. / Generates SEO-friendly URL slugs from Turkish titles."
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
