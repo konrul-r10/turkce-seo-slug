@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "turkce-seo-slug"
+version = "0.1.0"
+description = "Türkçe başlıklardan SEO uyumlu URL slug'ı üretir"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Evren Erten" }]
+keywords = ["turkish", "türkçe", "slug", "seo", "url"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Natural Language :: Turkish",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Text Processing :: Linguistic",
+]
+dependencies = ["turkce-harf>=0.1.1"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
